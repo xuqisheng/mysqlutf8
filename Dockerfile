@@ -1,3 +1,3 @@
-from mysql:5.5
+from mysql:5.6
 COPY my.cnf /etc/mysql/conf.d/mysqlutf8.cnf
 CMD ["mysqld", "--character-set-server=utf8", "--collation-server=utf8_unicode_ci"]
